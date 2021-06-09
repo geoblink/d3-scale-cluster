@@ -18,7 +18,7 @@ function d3scaleCluster () {
   };
 
   function rescale () {
-    if (range.length <= 0) {
+    if (!range.length) {
       return;
     }
 
